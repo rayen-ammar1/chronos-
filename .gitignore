@@ -1,0 +1,47 @@
+
+# Large data files � never commit these
+chronos-python-cleaner/data/
+chronos-python-cleaner/output/
+
+# Excel and CSV source files
+*.xlsx
+*.xls
+*.csv
+
+# Java build output
+chronos-backend/target/
+*.class
+*.log
+
+# Frontend build output
+chronos-frontend/node_modules/
+chronos-frontend/dist/
+
+# IDE / OS junk
+.idea/
+.vscode/
+.DS_Store
+
+chronos-python-cleaner/data/
+chronos-python-cleaner/output/
+# Large datasets
+chronos-python-cleaner/data/*.xlsx
+chronos-python-cleaner/data/*.csv
+
+# Generated outputs
+chronos-python-cleaner/output/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.idea/
+.vscode/
